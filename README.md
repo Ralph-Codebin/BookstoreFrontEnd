@@ -16,7 +16,7 @@ The business has requested the development of a new system which allows users to
 
 This is a very basic demonstation of a single page Reactjs web app with a powerfull .NET Core API on top of a SQL Database
 
-![thumbnail](./public/pic2.JPG)
+![thumbnail](./public/pic2.jpg)
 
 ### Frontend Stack
 
@@ -48,7 +48,7 @@ The backend is a .NET Core 3.1 Web API with SQL as the database. I also decided 
 
 Onion Architecture is comprised of multiple concentric layers interfacing each other towards the core that represents the domain. The architecture does not depend on the data layer as in classic multi-tier architectures, but on the actual domain models.
 
-![thumbnail](./public/pic1.JPG)
+![thumbnail](./public/pic1.jpg)
 
 *   The application was architected around the clean/onion architecture style.
 *   The Domain and Application form the Application Core.
@@ -84,7 +84,7 @@ Onion Architecture is comprised of multiple concentric layers interfacing each o
 
 *   The REST API is documented using the Swashbuckle toolkit that supports the OpenAPI spec.
 
-![thumbnail](./public/swagger.JPG)
+![thumbnail](./public/swagger.jpg)
 
 ### Serilog
 
@@ -133,27 +133,27 @@ To get this solution to run, a few steps need to be taken
 #### Demo
 When the app loads for the first time only the [Home] and [Products] menu items are available along with a [Log In] button
 
-![thumbnail](./public/home.JPG)
+![thumbnail](./public/home.jpg)
 
 At this stage the products are visible to all users.
 
-![thumbnail](./public/products.JPG)
+![thumbnail](./public/products.jpg)
 
 When a unauthenticated user tries to add an item to subscriptions a Swal message is displayd prompting them to log in.
 
-![thumbnail](./public/products2.JPG)
+![thumbnail](./public/products2.jpg)
 
 When logged in the [My suvscriptions] menu item is available along with a thumbnail (if they used google to log in) and some personal info.
 
-![thumbnail](./public/products3.JPG)
+![thumbnail](./public/products3.jpg)
 
 When the user now clicks the add to subscriptions button, they will get a confirmation that the item has been added.
 
-![thumbnail](./public/products4.JPG)
+![thumbnail](./public/products4.jpg)
 
 On the subscriptions page the user will be able to view the items in their subscription and also has the ability to remove items from said subscription.
 
-![thumbnail](./public/subscriptions.JPG)
+![thumbnail](./public/subscriptions.jpg)
 
 #### Conclusion
 
