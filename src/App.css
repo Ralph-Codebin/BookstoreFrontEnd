@@ -1,0 +1,90 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.thumbnail{  
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+.imghome{
+  max-width: 900px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bg-light{
+  background-color: #eedcc8 !important;
+}
+
+.intro-container{
+  margin-top: 20px;
+  color: #3b4151;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+.price{
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.description{
+  font-size: 14px;
+  min-height: 200px;
+  padding-left: 10px;
+  padding-right: 10px;  
+}
+
+.caption h3{
+  margin-top: 10px;
+}
+
+.profileimg{
+  border-radius: 5px;
+  width: 50px;
+}
+
+.kk{
+  border:1px solid red;
+}
+
+.llbtn {
+  margin-top: 5px !important;
+}
+
+.unauth{
+  margin-top: 40px;
+}
+
+.imgtableicon{
+  width: 100px;  
+}
+
+.tblTitle{
+  min-width: 150px;
+}
