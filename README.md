@@ -84,7 +84,7 @@ Onion Architecture is comprised of multiple concentric layers interfacing each o
 
 *   The REST API is documented using the Swashbuckle toolkit that supports the OpenAPI spec.
 
-![thumbnail](./public/swagger.jpg)
+![thumbnail](./public/Swagger.jpg)
 
 ### Serilog
 
@@ -133,27 +133,27 @@ To get this solution to run, a few steps need to be taken
 #### Demo
 When the app loads for the first time only the [Home] and [Products] menu items are available along with a [Log In] button
 
-![thumbnail](./public/home.jpg)
+![thumbnail](./public/Home.jpg)
 
 At this stage the products are visible to all users.
 
-![thumbnail](./public/products.jpg)
+![thumbnail](./public/Products.jpg)
 
 When a unauthenticated user tries to add an item to subscriptions a Swal message is displayd prompting them to log in.
 
-![thumbnail](./public/products2.jpg)
+![thumbnail](./public/Products2.jpg)
 
 When logged in the [My suvscriptions] menu item is available along with a thumbnail (if they used google to log in) and some personal info.
 
-![thumbnail](./public/products3.jpg)
+![thumbnail](./public/Products3.jpg)
 
 When the user now clicks the add to subscriptions button, they will get a confirmation that the item has been added.
 
-![thumbnail](./public/products4.jpg)
+![thumbnail](./public/Products4.jpg)
 
 On the subscriptions page the user will be able to view the items in their subscription and also has the ability to remove items from said subscription.
 
-![thumbnail](./public/subscriptions.jpg)
+![thumbnail](./public/Subscriptions.jpg)
 
 #### Conclusion
 
