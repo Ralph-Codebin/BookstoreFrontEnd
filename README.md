@@ -12,6 +12,12 @@ _This app is not complete by a long-shot, this is as basic as it gets. This is a
 
 The business has requested the development of a new system which allows users to register online and purchase a subscription to books listed in the online catalogue. Only a registered user can purchase a subscription to any book available in the product catalogue. A user can unsubscribe to any book a user currently has in their subscription. The system should also allow 3rd party resellers to access the system or parts of the system through an Api over Http which provides the same functionality.
 
+#### Repo URLs
+
+Front-End Application: [https://github.com/Ralph-Codebin/BookstoreFrontEnd](https://github.com/Ralph-Codebin/BookstoreFrontEnd)
+
+Back-End Application: [https://github.com/Ralph-Codebin/BookstoreApi](https://github.com/Ralph-Codebin/BookstoreApi)
+
 #### Architecture
 
 This is a very basic demonstation of a single page Reactjs web app with a powerfull .NET Core API on top of a SQL Database
@@ -84,7 +90,7 @@ Onion Architecture is comprised of multiple concentric layers interfacing each o
 
 *   The REST API is documented using the Swashbuckle toolkit that supports the OpenAPI spec.
 
-![thumbnail](./public/Swagger.jpg)
+![thumbnail](./public/Swagger.JPG)
 
 ### Serilog
 
